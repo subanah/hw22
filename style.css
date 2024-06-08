@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    margin: auto;
+    width: 100vh;
+}
+#slider{
+  
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+#slider .right{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: -57px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+}
+#slider .left{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+}
+#slider .container{
+    width: 1170px;
+    margin: auto;
+}
+#slider  img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover ;
+    padding: 0  10px;
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+#slider .slick-center img{
+    transform: scale(1);
+    opacity: 1;
+}
+#veno-box{
+   padding-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+#veno-box .container a{
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+#mixitup{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+#mixitup .mix{
+    width: 300px;
+    height: 600px;
+   
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+}
+#mixitup .container img{
+    width: 300px;
+    height: 500px;
+    margin: 0;
+    object-fit: cover ;
+}
+#mixitup .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100vh;
+   height: 350px;
+}
+#mixitup .test .row button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #F8C8DC;
+    border-radius: 5px;
+ 
+}
